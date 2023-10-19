@@ -1,0 +1,54 @@
+body{
+    margin:20px;
+    font-family: 'Courier New', monospace;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+.berk-img{
+    width: 150px;
+    
+}
+.card{
+    
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
+    width: 400px;
+    text-align:center;
+    color: #ede0d4;
+    background: #b08968;
+    margin: 0 auto;
+    
+    
+
+    
+}
+.hover:hover {
+    background: #b99a81;
+    color: white;
+}
+.border-bottom{
+border-bottom: 15px solid #5e3719;
+border-top: 15px solid #5e3719;
+border-radius:12px
+}
+
+.animate {
+    
+    transform-origin:top left;
+    animation: hinge 2s ease-in-out;
+}
+   
+@keyframes hinge{
+    20% , 60%{
+        transform: rotate(70deg);
+    }
+    40%, 80%{
+        transform: rotate(55deg);
+        opacity:1
+    }
+    100%{
+        transform: translateY(800px);
+        opacity:0
+    }
+}
+   
